@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
 
         d(TAG, "Activity created")
 
-        setTheme(Themes.appTheme)
+       setTheme(Themes.appTheme)
 
         app.config.ui.language?.let {
             setLanguage(it)
