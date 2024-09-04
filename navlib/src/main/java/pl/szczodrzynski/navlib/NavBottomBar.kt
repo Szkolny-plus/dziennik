@@ -41,7 +41,7 @@ class NavBottomBar : BottomAppBar {
      * Shows the BottomAppBar and sets the contentView's margin to be
      * above the BottomAppBar.
      */
-    var enable = true
+    var enable = false
         set(value) {
             field = value
             visibility = if (value) View.VISIBLE else View.GONE

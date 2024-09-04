@@ -15,8 +15,8 @@ object Themes {
     )
 
     val themeList = arrayListOf(
-            Theme(id = 0, name = R.string.theme_light, style = R.style.AppTheme_Light, isDark = false),
-            Theme(id = 1, name = R.string.theme_dark, style = R.style.AppTheme_Dark, isDark = true),
+            Theme(id = 0, name = R.string.theme_light, style = R.style.AppTheme_Light3, isDark = false),
+            Theme(id = 1, name = R.string.theme_dark, style = R.style.AppTheme_Dark3, isDark = true),
             Theme(id = 2, name = R.string.theme_black, style = R.style.AppTheme_Black, isDark = true),
             Theme(id = 3, name = R.string.theme_chocolate, style = R.style.AppTheme_Chocolate, isDark = true),
             Theme(id = 4, name = R.string.theme_indigo, style = R.style.AppTheme_Indigo, isDark = true),

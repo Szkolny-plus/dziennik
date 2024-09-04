@@ -10,6 +10,8 @@
         <item name="android:windowBackground">@drawable/dead_background</item>
     </style>
 
+
+
     <style name="AppTheme.Light.NoDisplay" parent="AppTheme.Light">
         <item name="android:colorBackground">?attr/colorBackgroundFloating</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
@@ -144,6 +146,64 @@
         <item name="timetable_lesson_shifted_target_color">#4caf50</item>
         <item name="hourDividerColor">#7fffffff</item>
         <item name="halfHourDividerColor">#40ffffff</item>
+
+        <item name="materialAlertDialogTheme">@style/AppTheme.MaterialAlertDialog</item>
+    </style>
+
+    <style name="AppTheme.Light3" parent="NavView.Light">
+        <item name="colorPrimary">@android:color/system_accent1_500</item>
+        <item name="colorPrimaryDark">@android:color/system_accent1_600</item>
+        <item name="colorPrimaryVariant">@android:color/system_accent2_500</item>
+        <item name="colorAccent">@android:color/system_accent3_500</item>
+
+        <item name="colorFab">@android:color/system_accent1_500</item>
+        <item name="colorFabIcon">#c8e6c9</item>
+        <item name="colorOnFab">#ffffff</item>
+        <item name="colorIcon">#8a000000</item>
+
+        <item name="mal_color_primary">?android:textColorPrimary</item>
+        <item name="mal_color_secondary">?android:textColorSecondary</item>
+        <item name="mal_card_background">?colorSurface</item>
+
+        <item name="timetable_lesson_bg">@drawable/timetable_lesson_bg_light</item>
+        <item name="timetable_lesson_cancelled_color">#9f9f9f</item>
+        <item name="timetable_lesson_change_color">#ffb300</item>
+        <item name="timetable_lesson_shifted_source_color">#A1887F</item>
+        <item name="timetable_lesson_shifted_target_color">#4caf50</item>
+        <item name="hourDividerColor">#b0b0b0</item>
+        <item name="halfHourDividerColor">#e0e0e0</item>
+
+        <item name="android:colorBackground">@android:color/system_neutral1_10</item>
+        <item name="colorSurface">@android:color/system_neutral1_50</item>
+
+        <item name="materialAlertDialogTheme">@style/AppTheme.MaterialAlertDialog</item>
+    </style>
+
+    <style name="AppTheme.Dark3" parent="NavView.Dark">
+        <item name="colorPrimary">@android:color/system_accent1_300</item>
+        <item name="colorPrimaryDark">@android:color/system_accent1_500</item>
+        <item name="colorPrimaryVariant">@android:color/system_accent2_300</item>
+        <item name="colorAccent">@android:color/system_accent2_300</item>
+
+        <item name="colorFab">#4CAF50</item>
+        <item name="colorFabIcon">#c8e6c9</item>
+        <item name="colorOnFab">#ffffff</item>
+        <item name="colorIcon">#b4ffffff</item>
+
+        <item name="mal_color_primary">@color/primaryTextDark</item>
+        <item name="mal_color_secondary">@color/secondaryTextDark</item>
+        <item name="mal_card_background">?colorSurface</item>
+
+        <item name="timetable_lesson_bg">@drawable/timetable_lesson_bg_dark</item>
+        <item name="timetable_lesson_cancelled_color">#838383</item>
+        <item name="timetable_lesson_change_color">#ffb300</item>
+        <item name="timetable_lesson_shifted_source_color">#A1887F</item>
+        <item name="timetable_lesson_shifted_target_color">#4caf50</item>
+        <item name="hourDividerColor">#7fffffff</item>
+        <item name="halfHourDividerColor">#40ffffff</item>
+
+        <item name="android:colorBackground">@android:color/system_neutral1_900</item>
+        <item name="colorSurface">@android:color/system_neutral1_800</item>
 
         <item name="materialAlertDialogTheme">@style/AppTheme.MaterialAlertDialog</item>
     </style>
